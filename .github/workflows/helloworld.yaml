@@ -12,5 +12,10 @@ jobs:
         - id: s00
           run: echo "Current time is $(date)"
         - id: s01
-          run: cat README.md
+          run: ls
+        - id: s02
+          uses: mscoutermarsh/cowsays-action@master
+          with:
+            text: 'lmao'
+            color: 'blue'
 
