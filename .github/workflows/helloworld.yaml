@@ -11,4 +11,6 @@ jobs:
         steps:
         - id: s00
           run: echo "Current time is $(date)"
+        - id: s01
+          run: cat README.md
 
